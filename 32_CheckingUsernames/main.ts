@@ -1,5 +1,5 @@
 // Step 1: Make a list of current_users
-/*const current_users: string[] = ['Alice', 'Bob', 'John', 'Charlie', 'David'];
+const current_users: string[] = ['Alice', 'Bob', 'John', 'Charlie', 'David'];
 
 // Step 2: Make another list of new_users
 const new_users: string[] = ['John', 'Eric', 'Frank', 'Alice', 'Grace'];
@@ -20,7 +20,7 @@ for (const newUsername of new_users) {
 }
 
 
-
+/*
 Checking Usernames: Do the following to create a program that simulates how websites ensure that everyone has a unique username.
 • Make a list of five or more usernames called current_users.
 
@@ -30,6 +30,7 @@ Checking Usernames: Do the following to create a program that simulates how webs
 need to enter a new username. If a username has not been used, print a message saying that the username is available.
 
 • Make sure your comparison is case insensitive. If 'John' has been used, 'JOHN' should not be accepted.*/
+/*
 let current_users: string[] = ['Uzair', 'Umair', 'Ali', 'Saad', 'Farhan'];
 
 let new_users: string[] = ['Uzair', 'Nabeel', 'Ammar', 'Subhan', 'Ali'];
@@ -38,4 +39,4 @@ for (let i=0; i < new_users.length; i++){
 
     
 }
-
+*/
