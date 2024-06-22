@@ -1,19 +1,22 @@
-"use strict";
 // Step 1: Make a list of current_users
-const current_users = ['Alice', 'Bob', 'John', 'Charlie', 'David'];
+var current_users = ['Ali', 'Babar', 'Jabbar', 'Saad', 'Khan'];
 // Step 2: Make another list of new_users
-const new_users = ['John', 'Eric', 'Frank', 'Alice', 'Grace'];
-// Step 3: Loop through new_users to check for unique usernames
-for (const newUsername of new_users) {
+var new_users = ['Jabbar', 'Emran', 'Fahad', 'Ali', 'Ghayas'];
+var _loop_1 = function (newUsername) {
     // Check for case-insensitive uniqueness
-    const isUsernameTaken = current_users.some((currentUsername) => currentUsername.toLowerCase() === newUsername.toLowerCase());
+    var isUsernameTaken = current_users.some(function (currentUsername) { return currentUsername.toLowerCase() === newUsername.toLowerCase(); });
     // Print messages based on the check
     if (isUsernameTaken) {
-        console.log(`Username '${newUsername}' is not available. Please enter a new username.`);
+        console.log("Username '".concat(newUsername, "' is not available. Please enter a new username."));
     }
     else {
-        console.log(`Username '${newUsername}' is available.`);
+        console.log("Username '".concat(newUsername, "' is available."));
     }
+};
+// Step 3: Loop through new_users to check for unique usernames
+for (var _i = 0, new_users_1 = new_users; _i < new_users_1.length; _i++) {
+    var newUsername = new_users_1[_i];
+    _loop_1(newUsername);
 }
 /*
 Checking Usernames: Do the following to create a program that simulates how websites ensure that everyone has a unique username.
